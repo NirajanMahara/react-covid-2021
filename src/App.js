@@ -9,9 +9,17 @@ import React from "react";
 // Cool trick using index.js
 import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
+import { fetchData } from './api';
 
 
 class App extends React.Component {
+
+  async componentDidMount() {
+    const fetchedData = await fetchData();
+
+    console.log(fetchedData);
+  }
+
   render() {
     return (
       <div className={styles.container}>
