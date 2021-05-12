@@ -16,7 +16,7 @@ const Chart = () => {
         // console.log(dailyData);
 
         fetchAPI();
-    });
+    }, [ setDailyData ]);
 
     const lineChart = (
         dailyData.length !== 0
@@ -27,7 +27,7 @@ const Chart = () => {
                     datasets: [{
                         data: dailyData.map(({ confirmed }) => confirmed),
                         label: 'Infected',
-                        borderColor: '#3333ff',
+                        borderColor: 'blue',
                         fill: true,
                     }, {
                         data: dailyData.map(({ deaths }) => deaths),
