@@ -1,4 +1,4 @@
-# react-covid-2021
+# react-covid-2021 [DEMO](https://covid-19-2021-nirajan.netlify.app/)
 
 - A COVID-19 Tracker/Stats Application. Using ReactJS with the addition of Charts.js, Material UI, and many different modules.
 - During 2021MAY, Corona Virus is, unfortunately, spreading through the entire world.
@@ -7,7 +7,9 @@
 - Along the way, how to use Material UI, Charts.js, React Hooks, API data fetching, all of it in React JS.
 - The project is going to fetch the live data from the API using Async/Await syntax.
 - Using React Hooks! have a strong understanding of React's workflow,
--   including data fetching, hooks, folder structure, and more.
+- including data fetching, hooks, folder structure, and more.
+- Setup:
+'run npm i && npm start'
 ____________________________________________________________________________________________
 
 # Getting Started with Create React App
