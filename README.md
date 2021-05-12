@@ -9,7 +9,7 @@
 - Using React Hooks! have a strong understanding of React's workflow,
 - including data fetching, hooks, folder structure, and more.
 - Setup:
-'run npm i && npm start'
+`run npm i && npm start`
 ____________________________________________________________________________________________
 
 # Getting Started with Create React App
